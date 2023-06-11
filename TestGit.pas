@@ -12,7 +12,9 @@ type
     Button1: TButton;
     Edit1: TEdit;
     Image1: TImage;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,6 +31,11 @@ implementation
 procedure TForm2.Button1Click(Sender: TObject);
 begin
   edit1.Text:='Hahahah';
+end;
+
+procedure TForm2.Button2Click(Sender: TObject);
+begin
+  Edit1.Text:='Malote';
 end;
 
 end.
