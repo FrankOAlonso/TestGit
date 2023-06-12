@@ -33398,9 +33398,9 @@ object Form2: TForm2
   object Button1: TButton
     Left = 248
     Top = 80
-    Width = 75
+    Width = 113
     Height = 25
-    Caption = 'Button1'
+    Caption = 'BotonAntiguo'
     TabOrder = 0
     OnClick = Button1Click
   end
