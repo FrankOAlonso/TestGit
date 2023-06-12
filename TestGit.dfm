@@ -33430,4 +33430,19 @@ object Form2: TForm2
     TabOrder = 3
     OnClick = Button3Click
   end
+  object Button4: TButton
+    Left = 96
+    Top = 392
+    Width = 193
+    Height = 49
+    Caption = 'OpenWin'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button4Click
+  end
 end
