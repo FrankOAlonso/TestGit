@@ -13,8 +13,10 @@ type
     Edit1: TEdit;
     Image1: TImage;
     Button2: TButton;
+    Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -36,6 +38,11 @@ end;
 procedure TForm2.Button2Click(Sender: TObject);
 begin
   Edit1.Text:='Malote';
+end;
+
+procedure TForm2.Button3Click(Sender: TObject);
+begin
+ Edit1.Text:='Paranaribo';
 end;
 
 end.
